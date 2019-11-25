@@ -1,20 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html oncontextmenu="return false">
 <head>
+<meta name="description" content="Licence Bitcoin">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" href="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.15752-9/75307986_277608086457796_1920277846522068992_n.png?_nc_cat=101&_nc_oc=AQls0QNLdSNijE-liBpZxSh29MNTDxiOsopoSJoKHkIJxJtDZRlpbzgfmyt0toTlWT4&_nc_ht=scontent.fbud4-1.fna&oh=1e5c85db2ff1e80166b382efff380058&oe=5E8CD94A" type="image/png">
   <title>Certificate</title>
+  <style>
+    body{
+      -webkit-user-select:none !important;
+    }
+  </style>
 </head>
-<body>
-<h2><img style="vertical-align:middle;" width="35" height="31" src="https://scontent.fhel5-1.fna.fbcdn.net/v/t1.15752-9/76689069_1082233845501931_501671490345762816_n.png?_nc_cat=105&_nc_ohc=63y9FiSfaEMAQmrJxuH-U5vcABorFC5iRmDCNjNJ8volYlInyUkMl1mzg&_nc_ht=scontent.fhel5-1.fna&oh=594f27cff1e1e27916b2830b96f74e50&oe=5E7B3EB8">Certificate Information<br>
-  <hr style="width:95%; height:1px;">
-  <h2>This certificate is intended for the following purpose(s):</h2>
+<body style="background:white;">
+<div style="width:380px; height:410px; padding:10px; padding-top:0px; border:2px inset; position:relative;">
+<h4 style="color:#009">
+  <img draggable="false" style="vertical-align:middle; position:relative; top:-5px;" width="35" height="31" src="https://scontent.fhel5-1.fna.fbcdn.net/v/t1.15752-9/76689069_1082233845501931_501671490345762816_n.png?_nc_cat=105&_nc_ohc=63y9FiSfaEMAQmrJxuH-U5vcABorFC5iRmDCNjNJ8volYlInyUkMl1mzg&_nc_ht=scontent.fhel5-1.fna&oh=594f27cff1e1e27916b2830b96f74e50&oe=5E7B3EB8"> Certificate Information<br>
+  <hr style="width:100%; border:.5px solid black; margin:7px 0 -10px 0">
+  <h4 style="font-size:15px">This certificate is intended for the following purpose(s):</h4>
    <ul list-style-type="disc">
-     <li>Ensure the indentity of a remote computer</li>
-     <li>Proves your identity to a remote computer</li>
-     <li>xs</li>
+     <li style="font-weight:100; color:black;">Ensure the indentity of a remote computer</li>
+     <li style="font-weight:100; color:black;">Proves your identity to a remote computer</li>
+     <li style="font-weight:100; color:black;">1.3.6.1.4.1.6449.1.2.2.7</li>
+     <li style="font-weight:100; color:black;">2..23.140.1.2.1</li>
    </ul>
-  </h2>
+  <h4 style="font-weight:100; color:#a00; font-size:15px;">*Refer to the certification authority's statement for details.</h4>
+  <hr style="width:100%; border:.5px solid black; margin:-5px 0 -5px 0;">
+  <h4 style="zoom:.9;">Issued to: <span style="font-weight:100; color:black;">www.BITcoinCryptoMiner.com</span></h4>
+  <h4 style="zoom:.85;">Issued by: <span style="font-weight:100; color:black;">COMODO RSA Domain Validation Secure Server CA</span></h4>
+  <h4 style="zoom:.9;">Issued by: <span style="font-weight:100; color:black;">Symantec Class 3 Secure Server CA - G4</span></h4>
+    <h4 style="zoom:.9;">Valid from: <span style="font-weight:100; color:black;">23-02-2019 <b>to:</b> 22-02-2022</span></h4>
+<button onclick="window.open('https://www.comodo.com/about/comodo-legal.php',target='_blank');" style="position:absolute; bottom:3vh; right:3vh; border:solid 1px darkgray; background:lightgray;">Issuer Statement</button>
+  </h4>
+</div>
+  <script>
+    onkeydown = function(){
+      var x = event.key;
+      if(x==='Control' || x==='F12'){
+        window.close();
+        window.close();
+    self.close();
+    this.close();
+    window.location.href = '/closekiosk';
+      }
+    }
+  </script>
 </body>
 </html>
