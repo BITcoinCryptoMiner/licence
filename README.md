@@ -6,6 +6,6 @@
   <title>JS Bin</title>
 </head>
 <body>
-x
+<h1>hexa</h1>
 </body>
 </html>
